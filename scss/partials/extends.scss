@@ -1,0 +1,10 @@
+.button {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: white;
+  }
+  
+  .special-button {
+    @extend .button;
+    font-weight: bold;
+  }

@@ -1,0 +1,58 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/extends';
+@import 'partials/maps';
+
+body {
+  font-size: $font-size;
+}
+
+.container {
+  margin: $spacing;
+
+  h1 {
+    color: $primary-color;
+    font-size: $font-size + 4px;
+  }
+
+  @include flex-center;
+}
+
+// Estilos adicionales...
+body main img.imagen1{
+    width: 500px;
+    height: 500px;
+}
+
+body main img.imagen2{
+      width: 500px;
+      height: 500px;
+}
+
+body main img.imagen3{
+      width: 500px;
+      height: 500px;
+}
+body main h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body  header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body header nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body main h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body main h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body main h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: url(./images/herramientas-de-bricolaje-848x477x80xX.jpg);
+    color: rgb(243, 243, 243);
+    font-size: x-large;
+}
